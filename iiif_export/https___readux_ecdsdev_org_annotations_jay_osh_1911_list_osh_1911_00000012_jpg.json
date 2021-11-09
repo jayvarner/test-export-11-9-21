@@ -1,0 +1,162 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.ecdsdev.org/annotations/jay/osh-1911/list/osh-1911_00000012.jpg",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "32810b76-a678-4541-9b09-d344f1f10058",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Jay Varner"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>text annotation</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.ecdsdev.org/iiif/v2/osh-1911/canvas/osh-1911_00000012.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/osh-1911/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1212,289,241,23",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='cbbf79a5-abe6-4181-ac91-e3d964875b68']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 5
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='9d8c7397-f3be-460c-8a82-54a29a87abc4']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 9
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-32810b76-a678-4541-9b09-d344f1f10058 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "96c18154-8c26-42fc-bdba-def429800744",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Jay Varner"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>Notes!</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.ecdsdev.org/iiif/v2/osh-1911/canvas/osh-1911_00000012.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/osh-1911/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=423,777,740,297",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M430.71752,1046.24202c20.38095,0 36.43052,-20.61191 51.45151,-30.6259c9.29504,-6.19669 22.63505,-9.47997 33.07597,-14.70043c9.48266,-4.74133 17.40521,-12.84815 28.17583,-15.92547c10.54008,-3.01145 23.09952,-2.91624 33.07597,-7.35022c18.77316,-8.34363 37.12969,-19.74256 56.35166,-26.95079c1.94959,-0.7311 4.31736,-0.19199 6.12518,-1.22504c1.27832,-0.73047 1.27222,-2.79172 2.45007,-3.67511c15.52839,-11.64629 48.47141,-28.47989 67.37698,-36.75108c10.25633,-4.48714 21.50476,-6.88685 31.85094,-11.02532c21.07184,-8.42874 40.49617,-19.28056 61.2518,-28.17583c39.10387,-16.7588 77.93523,-31.00488 116.37842,-50.22648c16.84821,-8.42411 38.26416,-10.40066 53.90159,-20.82561c15.43037,-10.28691 34.20652,-7.57633 51.45151,-11.02532c9.69869,-1.93974 19.77827,-1.75059 29.40086,-3.67511c30.33214,-6.06643 94.22368,-16.13365 109.02821,13.4754c1.33724,2.67449 0,9.10207 0,12.25036c0,19.0119 -9.28179,30.23703 -24.50072,41.65123c-11.93528,8.95146 -31.95194,12.26719 -46.55137,14.70043c-18.10396,3.01733 -33.97561,10.33146 -51.45151,14.70043c-7.44943,1.86236 -16.42653,2.70061 -23.27568,6.12518c-10.72925,5.36463 -23.35615,6.64738 -34.30101,11.02532c-11.77487,4.70995 -22.45592,13.63751 -34.30101,18.37554c-12.9526,5.18104 -26.519,12.03446 -39.20115,18.37554c-9.82844,4.91422 -17.6443,12.86603 -25.72576,19.60058c-8.60924,7.17437 -19.98494,11.50095 -29.40086,17.1505c-2.465,1.479 -4.45193,3.93405 -7.35022,4.90014c-36.46507,12.15502 -72.62314,26.11852 -110.25324,35.52604c-13.34968,3.33742 -26.94757,7.65567 -40.42619,11.02532c-6.66156,1.66539 -14.42706,1.54226 -20.82561,3.67511c-5.64833,1.88278 -11.47987,4.70752 -17.1505,6.12518c-8.96974,2.24244 -19.17293,1.42438 -28.17583,3.67511c-14.98805,3.74701 -30.15985,6.00867 -45.32633,9.80029c-11.7396,2.9349 -22.42981,6.87937 -34.30101,8.57525c-32.72748,4.67535 -63.19023,19.60058 -95.55281,19.60058c-8.4656,0 -24.42727,1.29849 -29.40086,-3.67511c-4.30264,-4.30264 1.22504,-19.89996 1.22504,-25.72576\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;deleteIcon&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_ad584350-9ca8-4e17-8c4f-16b8b47e8730\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=423,777,740,297"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "2fc0c164-190c-4322-b413-0c28da72c470",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Jay Varner"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>Hey, over here</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.ecdsdev.org/iiif/v2/osh-1911/canvas/osh-1911_00000012.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/osh-1911/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1863,649,234,490",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1863.23471,648.55538h116.7659v0h116.7659v244.78217v244.78217h-116.7659h-116.7659v-244.78217z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_316b77c7-0a83-4444-8349-70ddb0a0894a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1863,649,234,490"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "5c8f9cab-b35d-4fc4-b0b3-85c0b1b70871",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Jay Varner"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>circle</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.ecdsdev.org/iiif/v2/osh-1911/canvas/osh-1911_00000012.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/osh-1911/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=572,204,312,257",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M618.01104,241.84465c28.81848,-21.62537 69.47161,-37.72905 110.32174,-37.70981v0v0c40.85013,0.01924 76.43745,15.08397 110.32174,37.70981c33.88429,22.62584 47.05468,57.10324 45.69676,91.03953c-1.35792,33.93629 -17.24415,67.33146 -45.69676,91.03953c-28.45261,23.70807 -69.47161,37.72905 -110.32174,37.70981c-40.85013,-0.01924 -81.53141,-14.0787 -110.32174,-37.70981c-28.79033,-23.63111 -45.68973,-56.83389 -45.69676,-91.03953c-0.00704,-34.20565 16.87828,-69.41416 45.69676,-91.03953z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_2792b7c7-45cf-4d04-8d10-b78ddf1b2e9c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=572,204,312,257"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
